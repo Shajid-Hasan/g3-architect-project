@@ -8,3 +8,30 @@
     font-style: normal;
 }
 
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+
+.text-grey{
+    color: #424242;
+}
+
+
+/* Header styleL */
+
+/* nav-bar related styles */
+
+.navbar{
+
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500px;
+}
