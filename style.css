@@ -58,7 +58,7 @@
 }
 
 .navbar, .banner{
-    max-width: 1100px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 /* Banner related style */
@@ -87,8 +87,8 @@
 
 /* responsive media query */
 
-@media screen and (max-width:576px;){
-    .navbar, nav-link{
+@media screen and (max-width: 576px){
+    .navbar .nav-link{
         flex-direction: column;
     }
 }
