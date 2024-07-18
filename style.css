@@ -98,8 +98,13 @@ main > section{
     text-align: center;
     margin: 0 auto;
     margin-top: 40px;
-
 }
+
+.banner-description{
+    max-width: 800px;
+    margin-left: 10%;
+}
+
 .banner-image{
     width: 100%;
     margin-left: .50%;
@@ -114,8 +119,14 @@ main > section{
 /* responsive media query */
 
 @media screen and (max-width: 576px){
-    .navbar, .nav-link{
+    .navbar,
+    .nav-link,
+    .teams{
         flex-direction: column;
+    }
+
+    .team-img-container{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -160,4 +171,65 @@ main > section{
 
 #features{
     color: #FF900E;
+}
+
+/* medium size device */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .teams{
+        flex-direction: column;
+}
+
+    .our-features{
+    margin-left: 50px auto;
+}
+
+/* part 3 */
+
+.container{
+    height: 800px;
+    width: 500px;
+    /* border: 1px solid red; */
+}
+
+.love-title{
+    font-weight: 600;
+    font-size: 30px;
+    width: 300px;
+    border-left: 4px solid #FF900E;
+    padding: 14px;
+}
+
+.love-title-description{
+    font-size: 14px;
+    /* border: 1px solid red; */
+}
+
+.version{
+    /* border: 1px solid tomato; */
+    padding: 15px;
+    width: 350px;
+    height: 35rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+.desk-mob-version{
+    /* border: 1px solid red; */
+}
+
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 5px;
+}
+
+.box-title{
+    font-size: 15px;
+}
+
+.box-title-description{
+    font-size: 12px;
+}
+
+.super-easy{
+    
 }
